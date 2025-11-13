@@ -19,4 +19,7 @@ app.get("/api/message" ,(req,res)=>{
 
 const PORT = 5000
 
-app.listen(PORT,"0.0.0.0",()=>console.log(`server started at http://localhost:${PORT}`))  
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`server started at http://0.0.0.0:${PORT}`);
+});
+
